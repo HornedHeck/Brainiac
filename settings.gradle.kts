@@ -10,3 +10,7 @@ plugins {
 }
 
 rootProject.name = "Brainiac"
+include("domain")
+include("app")
+include("adapters")
+include("infrastructure")
